@@ -1,0 +1,48 @@
+.containerNavigation{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: gainsboro;
+}
+.pc-nav{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.style{
+    display: inline;
+    margin: 0 20px 0 0;
+}
+.main-body{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 1%
+}
+a{
+    color:black;
+}
+.loginStyle{
+    max-width: 420px;
+    margin: auto;
+    padding-top: 6%
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    background: gainsboro;
+    display: block;
+}
